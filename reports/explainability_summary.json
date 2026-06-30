@@ -1,0 +1,69 @@
+{
+  "best_model": "Logistic Regression",
+  "election_importance_share": 0.008609417388836589,
+  "business_importance_share": 0.9913905826111634,
+  "cancellation_rates": {
+    "Election year": 0.41346850108616945,
+    "Transition window": 0.39819318971507994,
+    "New-president year": 0.3330612244897959,
+    "Ordinary year": 0.30492898913951544
+  },
+  "counts": {
+    "Election year": 1381,
+    "Transition window": 1439,
+    "New-president year": 1225,
+    "Ordinary year": 2394
+  },
+  "top_features": [
+    {
+      "feature": "time_to_close_or_cancel",
+      "importance": 0.31080419725436526,
+      "std": 0.012430605023331784
+    },
+    {
+      "feature": "regulatory_review",
+      "importance": 0.026175663745652618,
+      "std": 0.003683537097282286
+    },
+    {
+      "feature": "antitrust_risk_proxy",
+      "importance": 0.012901639441393198,
+      "std": 0.002767440109489808
+    },
+    {
+      "feature": "cross_border_deal",
+      "importance": 0.012662566581939523,
+      "std": 0.0026284618188089177
+    },
+    {
+      "feature": "interest_rate_proxy",
+      "importance": 0.005298411513417182,
+      "std": 0.0015228916496764493
+    },
+    {
+      "feature": "rumor_or_leak_indicator",
+      "importance": 0.0036367514531009024,
+      "std": 0.000760782739815046
+    },
+    {
+      "feature": "payment_method",
+      "importance": 0.002010937509257841,
+      "std": 0.001318683538792167
+    },
+    {
+      "feature": "public_acquirer",
+      "importance": 0.0018832542348780513,
+      "std": 0.0012430271858918753
+    },
+    {
+      "feature": "deal_value_log",
+      "importance": 0.0016415151353561827,
+      "std": 0.0011502980341289838
+    },
+    {
+      "feature": "election_year",
+      "importance": 0.0014649507930583653,
+      "std": 0.0009512643864631429
+    }
+  ]
+}
